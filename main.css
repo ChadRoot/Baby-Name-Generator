@@ -1,20 +1,58 @@
-
-body {
+html {
   background-color: antiquewhite;
-  max-width: 800px;
-  margin: 40px auto;
 }
 
-/*div .buttons {
-} */
+body {
+  background-color: #F6F6F6;
+  max-width: 800px;
+  height: 100vh;
+  margin: 0px auto;
+  padding: 0px 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+#title {
+  font-size: 4rem;
+  text-align: center;
+  text-decoration: none ; 
+  margin: 0px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  border-bottom: 5px solid black;
+}
+
+/* Div to modify button + content placement */
+#genderButtons {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px 0px;
+}
+
+/* Button styling - Need to update so only one name result shows at a time */
+.genderButton {
+  display: inline-block;
+  margin: 0 auto;
+  vertical-align: top;
+  width: 30%;
+}
 
 #girlNameButton {
   color: black;
   background-color: pink;
-  padding: 20px;
   width: 180px;
+  height: 120px;
+  padding: 20px;
   font-size: 32px;
-  border-radius: 10px;
+  border-radius: 20px;
   border-width: 4px;
   border-color: lightblue;
 }
@@ -22,10 +60,11 @@ body {
 #boyNameButton {
   color: black;
   background-color: lightblue;
-  padding: 20px;
   width: 180px;
+  height: 120px;
+  padding: 20px;
   font-size: 32px;
-  border-radius: 10px;
+  border-radius: 20px;
   border-width: 4px;
   border-color: pink;
 }

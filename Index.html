@@ -3,21 +3,27 @@
   <head>
     <title>'Baby Name Generator'</title>
     <link rel="stylesheet" href="main.css">
-  
   </head>
-    
-  <body>
-    <h1>Baby Name Generator</h1>
-    <p>This tool is designed to fetch name ideas from our database of popular and unique baby names!</p>
-    <div class="buttons">
-      <h3>Girl</h3>
-        <button id="girlNameButton" onclick="gn()">Let's Go!</button>
-      <h3>Boy</h3>
-        <button id="boyNameButton" onclick="bn()">Let's Go!</button>
-    </div>
-    <p id="girlNameOutput"></p>
 
-    <p id="boyNameOutput"></p>
+  <body>
+    <h1 id="title">Baby Name Generator</h1>
+    <p>This tool is designed to fetch name ideas from our database of popular and unique baby names.  </p>
+    <p>Select your baby's gender to generate interesting name ideas!</p>
+
+    <div id="genderButtons">
+      <h1>I'm having a:</h1>
+      <div class="genderButton">
+        <h1>Girl</h1>
+        <button id="girlNameButton" onclick="gn()">Generate</button>
+        <h1 id="girlNameOutput"></h1>
+      </div>
+
+      <div class="genderButton">  
+        <h1>Boy</h1>
+        <button id="boyNameButton" onclick="bn()">Generate</button>
+        <h1 id="boyNameOutput"></h1>
+      </div>
+    </div>
 
     <script type="text/javascript" src="../BabyNameGenerator/gen.js"></script>
   </body>

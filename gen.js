@@ -132,7 +132,7 @@ var girlMiddle = [
 "Marie",
 "Zoe"]
 
-//Boy Name Lists
+// Boy Name Lists
 var boyFirst = [
 "Liam",
 "Noah",
@@ -270,14 +270,16 @@ var boyMiddle = [
 "Cohen",
 "Kai"]
 
-function bn() {
-  var boyName1 = boyFirst[Math.floor(Math.random()*boyFirst.length)];
-  var boyName2 = boyMiddle[Math.floor(Math.random()*boyMiddle.length)];
-  document.getElementById("boyNameOutput").innerHTML = boyName1 + ' ' + boyName2;
-}
-
+// Choose a random name for a girl on user click
 function gn() {
   var girlName1 = girlFirst[Math.floor(Math.random()*girlFirst.length)];
   var girlName2 = girlMiddle[Math.floor(Math.random()*girlMiddle.length)];
   document.getElementById("girlNameOutput").innerHTML = girlName1 + ' ' + girlName2;
+}
+
+// Choose a random name for a boy on user click
+function bn() {
+  var boyName1 = boyFirst[Math.floor(Math.random()*boyFirst.length)];
+  var boyName2 = boyMiddle[Math.floor(Math.random()*boyMiddle.length)];
+  document.getElementById("boyNameOutput").innerHTML = boyName1 + ' ' + boyName2;
 }
