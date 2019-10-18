@@ -1,21 +1,31 @@
+
 body {
   background-color: antiquewhite;
+  max-width: 800px;
+  margin: 40px auto;
 }
 
-div .buttons {
-  align-content: center;
-}
+/*div .buttons {
+} */
 
-#girlNameGen {
+#girlNameButton {
   color: black;
   background-color: pink;
   padding: 20px;
+  width: 180px;
   font-size: 32px;
+  border-radius: 10px;
+  border-width: 4px;
+  border-color: lightblue;
 }
 
-#boyNameGen {
+#boyNameButton {
   color: black;
   background-color: lightblue;
   padding: 20px;
+  width: 180px;
   font-size: 32px;
+  border-radius: 10px;
+  border-width: 4px;
+  border-color: pink;
 }

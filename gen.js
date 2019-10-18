@@ -271,11 +271,13 @@ var boyMiddle = [
 "Kai"]
 
 function bn() {
-  var boysChoice = boyFirst[Math.floor(Math.random()*boyFirst.length)];
-  document.getElementById("boyNameOutput").innerHTML = boysChoice;
+  var boyName1 = boyFirst[Math.floor(Math.random()*boyFirst.length)];
+  var boyName2 = boyMiddle[Math.floor(Math.random()*boyMiddle.length)];
+  document.getElementById("boyNameOutput").innerHTML = boyName1 + ' ' + boyName2;
 }
 
 function gn() {
-  var girlsChoice = girlFirst[Math.floor(Math.random()*girlFirst.length)];
-  document.getElementById("girlNameOutput").innerHTML = girlsChoice;
+  var girlName1 = girlFirst[Math.floor(Math.random()*girlFirst.length)];
+  var girlName2 = girlMiddle[Math.floor(Math.random()*girlMiddle.length)];
+  document.getElementById("girlNameOutput").innerHTML = girlName1 + ' ' + girlName2;
 }
